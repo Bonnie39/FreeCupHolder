@@ -3,6 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>Win32ImageResources\FreeCupHolderIcon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Win32ImageResources\FreeCupHolderIcon.ico" />
+  </ItemGroup>
 
 </Project>
